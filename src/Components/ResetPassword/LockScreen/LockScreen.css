@@ -1,0 +1,48 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: 8rem;
+    background-color: #f6f6f6;
+    box-shadow:9px 9px 23px -4px rgba(109,128,166,0.67);
+}
+.main-container .sub-container{
+    padding: 1rem;
+}
+.main-container .sub-container h5{
+    margin-left: 5rem;
+}
+.main-container .sub-container input{
+margin-left: 4.5rem;
+font-size: x-small;
+margin-top: 0.5rem;
+height: 2rem;
+}
+.main-container .sub-container h5{
+    margin-left: 7rem;
+}
+.main-container .sub-container h6{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.main-container .sub-container button{
+    margin-top: 1rem;
+    background-color: #17273a;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    margin-left: 4.3rem;
+}
+.main-container .sub-container button:hover{
+    background-color: white;
+    color: #17273a;
+}

@@ -3,7 +3,8 @@ import './App.css';
 // import SignInForm from './Components/SignInForm/SignInForm';
 // import RegisterAccount from './Components/RegisterAccount/RegisterAccount';
 // import ResetPassword from './Components/ResetPassword/ResetPassword';
-import ChangePassword from './Components/SignInForm/ChangePassword/ChangePassword';
+// import ChangePassword from './Components/SignInForm/ChangePassword/ChangePassword';
+import LockScreen from './Components/ResetPassword/LockScreen/LockScreen';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <CreateAnAccount/> */}
       {/* <RegisterAccount/> */}
       {/* <ResetPassword/> */}
-      <ChangePassword/>
+      {/* <ChangePassword/> */}
+      <LockScreen/>
     </div>
   )
 }
