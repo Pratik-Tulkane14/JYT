@@ -1,0 +1,83 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    height: 26rem;
+    width: 20rem;
+    background-color: #f6f6f6;
+    margin:  auto;
+    margin-top: 1rem;
+
+}
+.main-container .sub-container h4{
+    font-weight: 100;
+    margin-left: 4rem;
+}
+.main-container .sub-container h5{
+    font-weight: 100;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.main-container .sub-container{
+    padding: 1rem;
+    background-color: whitesmoke;
+
+}
+.main-container .sub-container h6{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.main-container .sub-container input{
+ margin-left: 2rem;
+}
+.main-container .sub-container a{
+    font-size: xx-small;
+    margin-left: 8rem;
+    text-decoration: none;
+    color: #17273a;
+}
+.main-container .sub-container p{
+    font-size: xx-small;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.main-container .sub-container button{
+    height: 1.7rem;
+    width: 11rem;
+    border: 2px solid #17273a;
+    color: whitesmoke;
+    background-color: #17273a;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.main-container .sub-container button:hover{
+    color: #17273a;
+    background-color: whitesmoke
+}
+.main-container .sub-container #signUpUsing{
+    margin-left: 5.5rem;
+}
+    .main-container .sub-container .icon-images {
+        margin-left: 4.8rem;
+        width: 2rem;
+        display: flex;
+        
+    }
+    .main-container .sub-container .icon-images img{
+        height: 1rem;
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+    .main-container .sub-container #alreadyHaveAnAccount{
+        margin-left: 2rem;
+    }
+    .main-container .sub-container #logIn{
+        margin-left: 0.5rem;
+    }
