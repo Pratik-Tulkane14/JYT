@@ -1,10 +1,12 @@
 import './App.css';
-import SignInForm from './Components/SignInForm/SignInForm';
+import CreateAnAccount from './Components/CreateAccountForm/CreateAnAccount';
+// import SignInForm from './Components/SignInForm/SignInForm';
 
 function App() {
   return (
     <div>
-      <SignInForm/>
+      {/* <SignInForm/> */}
+      <CreateAnAccount/>
     </div>
   )
 }
