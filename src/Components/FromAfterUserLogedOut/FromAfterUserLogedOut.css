@@ -1,0 +1,38 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+.main-container .sub-container{
+    height: 100vh;
+    width: 100vh;
+    margin: 6rem auto;
+    background-color: rgb(245 245 245);
+    height: 17rem;
+    width: 17rem;
+    box-shadow:9px 9px 23px -4px rgba(109,128,166,0.67);
+}
+.main-container .sub-container h5{
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+.main-container .sub-container button{
+    height: 2rem;
+    width: 9rem;
+    color: white;
+    background-color:#17273a;
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
+.main-container .sub-container button:hover{
+    color: #17273a;
+    background-color: white;
+    cursor: pointer;
+}

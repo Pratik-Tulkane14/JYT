@@ -45,4 +45,5 @@ height: 2rem;
 .main-container .sub-container button:hover{
     background-color: white;
     color: #17273a;
+    cursor: pointer;
 }

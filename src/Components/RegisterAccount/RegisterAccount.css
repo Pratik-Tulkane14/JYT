@@ -58,7 +58,8 @@ body{
 }
 .main-container .sub-container button:hover{
     color: #17273a;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    cursor: pointer;
 }
 .main-container .sub-container #signUpUsing{
     margin-left: 5.5rem;

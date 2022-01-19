@@ -67,6 +67,7 @@ body{
 }
 .signInSection button:hover{
     color: rgb(245, 202, 202);
+    cursor: pointer;
 }
 .signInSection #register{
     display: flex;
