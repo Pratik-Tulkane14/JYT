@@ -1,0 +1,30 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    margin-left: 30rem;
+    margin-top: 3rem;
+}
+.main-container img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 45%;
+    margin-left: 4rem;
+
+}
+.main-container h5{
+    margin-left: 3rem;
+}
+.main-container h6{
+    margin-top: 2rem;
+}
+.main-container button{
+    height: 2rem;
+    width: 11rem;
+    color: white;
+    margin-top: 2rem;
+    background-color: #17273a;
+}
