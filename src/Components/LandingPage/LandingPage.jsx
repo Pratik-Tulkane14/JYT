@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-import './Navbar.css'
+import './LandingPage.css'
 { <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap');
     </style> }
-function Navbar() {
+function LandingPage() {
     return (
         <div>
             <div className="navbar">
@@ -24,4 +24,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default LandingPage

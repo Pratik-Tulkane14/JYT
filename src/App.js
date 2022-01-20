@@ -6,7 +6,7 @@ import './App.css';
 // import ChangePassword from './Components/ChangePassword/ChangePassword'
 // import LockScreen from './Components/LockScreen/LockScreen';
 // import FromAfterUserLogedOut from './Components/FromAfterUserLogedOut/FromAfterUserLogedOut';
-import Navbar from './Components/CreatePost/Navbar';
+import LandingPage from './Components/LandingPage/LandingPage';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       {/* <ChangePassword/> */}
       {/* <LockScreen/> */}
       {/* <FromAfterUserLogedOut/> */}
-      <Navbar/>
+      <LandingPage/>
     </div>
   )
 }
