@@ -1,0 +1,65 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    color: #17273a;
+    display: flex-end;
+    justify-content: flex-end;
+}
+.navbar li{
+    list-style: none;
+    display: flex;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #12161b;
+    padding: 1rem;
+    transition: all ease-in 0.3s;
+}
+
+.navbar button{
+    display: flex;
+    color: black;
+    background-color: transparent;
+    padding: 0.5rem;
+    border: 2px solid #17273a;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    justify-content: center;
+    font: bold;
+    height: 2rem;
+    width: 4rem;
+
+}
+.navbar  button:hover{
+    border: none;
+    cursor: pointer;
+    margin-top: 0.4rem;
+}
+.container{
+    height: 10rem;
+    width: 23rem;
+    margin: 6rem;
+}
+.container p{
+    margin-top: 1rem;
+}
+.container span{
+    color: tomato;
+}
+.container button{
+    background-color: #17273a;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    margin-top: 1rem;
+}
